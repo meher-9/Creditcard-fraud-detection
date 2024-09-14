@@ -1,0 +1,120 @@
+body{
+    /* background-color:aqua; */
+    background-image: url("./backimg2.png");
+    background-size: 100vw 150vh;
+    background-repeat: no-repeat;
+    
+}
+.heading
+{
+    color: black;
+}
+.drop
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+.main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 95vh;
+    width: 40vw;
+    margin-left: 50vw;
+    margin-top: -15px;
+    /* padding: -20px; */
+    /* border-radius: 20px; */
+    /* background-color: aqua; */
+}
+.main2
+{
+    display: flex;
+    flex-direction: row;
+    color: #ccc;
+    font-size: large;
+    margin-top: -23px;
+}
+.box
+{
+    padding-right: 100px;
+}
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Spacing between columns */
+}
+
+.form-column p {
+    margin: 10px 0;
+}
+
+.text {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
+.drop{
+    display: flex;
+    flex-direction: row;
+    
+}
+.drop1
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.text
+{
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+.down
+{
+    padding: 5px;
+    border-radius: 10px;
+}
+.submit
+{
+    padding: 10px 30px;
+    font-size: medium;
+    background-color: rgb(143, 230, 109);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: -25px;
+}
+.main2
+{
+    
+    padding-left: 50px;
+    border-radius: 20px;
+}
+.output
+{
+    color:#ccc;
+    padding: 270px; /* Reduced padding to ensure it doesn't push the text too far */
+    border-radius: 10px;
+    text-align: center; /* Aligns text in the center */
+    width: 100%; /* Makes the output container span the entire width */
+    white-space: nowrap
+}
